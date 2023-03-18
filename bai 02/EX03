@@ -1,0 +1,30 @@
+body{
+  background-color: white;
+  color:blue;
+  margin: -1px;
+ 
+}
+
+
+/* Header **/
+header{
+ background: rgb(128, 243, 252);
+ margin: -1px;
+ color: rgb(8, 37, 165);
+ padding: 30px;
+ border-color: blue;
+
+ 
+ 
+ 
+ 
+
+ 
+}
+
+footer{
+  background-color: maroon ;
+  color: darkgray;
+  padding: 40px;
+  text-align: center;
+}
