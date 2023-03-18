@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(95, 185, 20);
+  background-color: white;
   color: rgb(218, 42, 42);
   margin: -1px;
  
