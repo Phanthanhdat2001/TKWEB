@@ -1,0 +1,78 @@
+body{
+  background-color:white;
+  color: black;
+  margin: -1px;
+ 
+}
+
+
+/* Header **/
+header{
+  background: rgb(128, 243, 252);
+ margin: -1px;
+ color: rgb(201, 5, 5);
+ padding: 30px;
+ border-color: blue;
+ columns: 2;
+
+
+}
+
+header a{
+  color: blue;
+  text-decoration: overline;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+header li{
+ display: inline-block;
+ padding-right: 30px;
+
+}
+
+header #branding{
+  color: rgb(125, 224, 224);
+
+}
+
+header #branding h1{
+  color: rgb(52, 119, 185);
+
+}
+
+header nav{
+ position: relative;
+ transform: translateX();
+ opacity: 1;
+ display:flex;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+header .highlight, header .current a{
+  color: aliceblue;
+
+}
+
+header a:hover{
+  background-color: red;
+
+}
+
+
+footer{
+  
+  background-color: maroon ;
+  color: rgb(235, 235, 235);
+  text-align: center;
+  padding-top: 10px;;
+  padding-bottom: 40px;
+}
+
+
+#newsletter form input[type="email"], .quote input, .quote textarea{
+    color: black;
+  }
+
