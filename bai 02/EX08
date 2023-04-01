@@ -1,0 +1,147 @@
+body{
+    background-color: white;
+    color: black;
+    margin: -1px;
+}
+
+
+/* Global */
+.container{
+    width: 600px;
+    margin: auto;
+}
+
+ul{
+    margin: 10px;
+}
+
+.button_1{
+    background-color: chocolate;
+    width: 150px;
+    padding: 10px;
+}
+
+.dark{
+    background-color: grey;
+    margin: auto;
+}
+
+/* Header **/
+header{
+    background: orange;
+    margin: -1px;
+    color: rgb(201, 5, 5);
+    padding: 30px;
+    border-bottom: 6px red solid;
+    columns: 2;
+}
+
+header a{
+    color: darkslategrey;
+    text-decoration: overline;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+header li{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+header #branding{
+    color: rgb(125, 224, 224);
+}
+
+header #branding h1{
+    color: rgb(52, 119, 185);
+}
+
+header nav{
+    position: relative;
+    transform: translateX();
+    opacity: 1;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+header .highlight, header .current a{
+    color: chartreuse;
+}
+
+
+header a:hover{
+    background-color: orange;
+    color: rgb(12, 1, 1);
+    text-align: center;
+    padding-top: 10px;;
+    padding-bottom: 40px;
+    border-top: red solid; 
+}
+
+/* Showcase */
+#showcase{
+    background-image: url(https://vinhthevu.com/images/showcase.jpg);
+    padding: 50px
+}
+
+#showcase h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#showcase p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Newsletter */
+#newsletter{
+    background-color: gray;
+    padding: 5px;
+  }
+
+
+#newsletter h1{
+    color: aliceblue;
+
+}
+
+#newsletter form {
+    display: flex;
+    justify-content: first end;
+}
+
+#newsletter input[type="email"]{
+    float: left;
+    padding: 5px;
+    display: flex;
+}
+
+/* Boxes */
+#boxes{
+  columns: 3;
+}
+
+#boxes .box{
+  box-sizing: border-box;
+  width: 40%;
+  text-align: center;
+}
+
+#boxes .box img{
+    width: 40%;
+  
+}
+
+footer{
+    background-color: rgb(255, 94, 0);
+    color: rgb(223, 188, 188);
+    text-align: center;
+    padding-top: 10px;;
+    padding-bottom: 40px;
+    border-top: 6px red solid; 
+}
